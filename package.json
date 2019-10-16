@@ -1,7 +1,7 @@
 {
-  "author": "Hourai Teahouse",
-  "name": "com.houraiteahouse.discord",
-  "displayName": "Discord Rich Presence",
-  "version": "0.0.1",
-  "description": "Discord Rich Prescence integration with Unity."
+  "author": "Discord Inc.",
+  "name": "com.discord.game-sdk",
+  "displayName": "Discord Game SDK",
+  "version": "0.1.0",
+  "description": "Discord Game SDK for Unity."
 }
