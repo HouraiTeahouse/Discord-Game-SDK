@@ -1,0 +1,10 @@
+language: node_js
+install: skip
+script: echo 'Unity C# Package. Not Building.'
+deploy:
+  provider: npm
+  email: contact@houraiteahouse.net
+  api_key:
+    secure: i/dnIlYYfQhG6v7idz+kZbJbaltRit+snlauMXH61IhyKb1XlDqGMQTCdojm/UCnSKIgRiSZZpm2nyOsg7+xaUz+HJOnnFf5sfF3Bhspuz8UF5wzQGAxXf79f6CE8rRroiHs8ui29GwN/MeKh5oU/HsAKqlnBMymip8GGb/g8PfvTBvLtA5yeT8+/T0QPlquYffY1xTgeWHGNdegogoVl2rH63VB8WlS46/xt2V8/eA7BKzjymrnbrsf5AZOR7SFxTX3IH2UyP7DBENDdpbSjjOhA5sI1dCgyEACoVBm0FLnbMMu0qGj8rXHRmZqe99rYldz+xJ859hYN6pKmc9gZlpW3qLiJ2Ag/6RjIuK6irDTRmp0mDlfbR7eYATYLCWXi9qlhlXOsgKHEhFO7ZELSA30WH0IksMpkdf9Ho6ficpyLQV7ZiKpxcxH//Ad+ptqxCYO8teqdHdnJc958qzCQjk+WCF5mdn5Tll8qsafwUWauYGwx+I+xR9W66ic/k/9Ufl8r9nBmAWEAw6kQMnV8cwVjyNBrMhihY8Dmp+XVDMKCJDHWyDRylEo20n04EAL07U2j688HPnXK5KH928CoRD5neGc7+8ezlH05C8Ng9YU/gcRgZ5uftp/5Cdw3ygogHLlvJQRWmD/9WDSahBdFc+Amwl4VYlbnS3u+v2bBr0=
+  on:
+    tags: true
