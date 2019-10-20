@@ -9,10 +9,9 @@
     </a>
 </p>
 
-
 The [Discord Game SDK](https://discordapp.com/developers/docs/game-sdk/sdk-starter-guide)
-repackaged as a Unity Package. For API documentation, please refer to the official Discord
-API docs.
+repackaged as a Unity Package. For API documentation, please refer to the
+official Discord API docs.
 
 This package is up to date with the official SDK as of October 16th, 2019.
 
@@ -20,22 +19,30 @@ This package is up to date with the official SDK as of October 16th, 2019.
 
 Installation of this package requires Unity 2018.3 or higher.
 
-Under `Packages/manifest.json`, add the following line, then open the Unity Editor.
+Under `Packages/manifest.json`, add the following lines, then open the Unity
+Editor. Note: this will add a scoped registry to your project.
 
 ```json
 {
   "dependencies": {
-    "com.discord.game-sdk": "https://github.com/HouraiTeahouse/Discord-Game-SDK.git"
-  }
+    "com.discord.game-sdk": "1.0.0"
+  },
+  "scopedRegistries": [
+    {
+      "name": "Hourai Teahouse",
+      "url": "https://upm.houraiteahouse.net",
+      "scopes": ["com.discord"]
+    }
+  ]
 }
 ```
 
 ## License
 
-As of time of writing (October 16th 2019), the Discord Game SDK is not considered FOSS.
-Thus this repository has no LICENSE file.  This repo is meant to be a direct mirror to 
-make it easier to import into Unity and includes pre-built binary distributions of the
-package in it's source.
+As of time of writing (October 16th 2019), the Discord Game SDK is not considered
+FOSS.  Thus this repository has no LICENSE file.  This repo is meant to be a
+direct mirror to make it easier to import into Unity and includes pre-built
+binary distributions of the package in it's source.
 
-Note that if this third-party distribution of the SDK is not in line with Discord's 
-Terms of Service, it will be taken down.
+Note that if this third-party distribution of the SDK is not in line with
+Discord's Terms of Service, it will be taken down.
