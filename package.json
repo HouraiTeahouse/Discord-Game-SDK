@@ -2,7 +2,7 @@
   "author": "Discord Inc.",
   "name": "com.discord.game-sdk",
   "displayName": "Discord Game SDK",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Discord Game SDK for Unity.",
   "homepage": "https://discordapp.com/developers/docs/game-sdk/sdk-starter-guide",
   "publishConfig": {
