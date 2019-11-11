@@ -11,7 +11,7 @@
 
 The [Discord Game SDK](https://discordapp.com/developers/docs/game-sdk/sdk-starter-guide)
 repackaged as a Unity Package. For API documentation, please refer to the
-official Discord API docs.
+t statusofficial Discord API docs.
 
 This package is up to date with the official SDK as of October 16th, 2019.
 
