@@ -11,9 +11,9 @@
 
 The [Discord Game SDK](https://discordapp.com/developers/docs/game-sdk/sdk-starter-guide)
 repackaged as a Unity Package. For API documentation, please refer to the
-t statusofficial Discord API docs.
+official Discord API docs.
 
-This package is up to date with the official SDK as of October 16th, 2019.
+This package is up to date with the official SDK as of November 27, 2019.
 
 ## Installation
 
@@ -25,7 +25,7 @@ Editor. Note: this will add a scoped registry to your project.
 ```json
 {
   "dependencies": {
-    "com.discord.game-sdk": "2.5.5"
+    "com.discord.game-sdk": "2.5.6"
   },
   "scopedRegistries": [
     {
@@ -39,7 +39,7 @@ Editor. Note: this will add a scoped registry to your project.
 
 ## License
 
-As of time of writing (October 16th 2019), the Discord Game SDK is not considered
+As of time of writing (November 27th 2019), the Discord Game SDK is not considered
 FOSS.  Thus this repository has no LICENSE file.  This repo is meant to be a
 direct mirror to make it easier to import into Unity and includes pre-built
 binary distributions of the package in it's source.
