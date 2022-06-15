@@ -39,7 +39,7 @@ Editor. Note: this will add a scoped registry to your project.
 ```json
 {
   "dependencies": {
-    "com.discord.game-sdk": "2.5.6"
+    "com.discord.game-sdk": "3.1.0"
   },
   "scopedRegistries": [
     {
